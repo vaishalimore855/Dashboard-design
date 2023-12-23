@@ -1,0 +1,167 @@
+.login{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100vh;
+  
+  width: 80%;
+  background-image: url("/src/Images/backgroundImg.jpg");
+  margin: 10% 10%;
+}
+
+.login-container {
+  
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.login-box {
+  max-width: 400px;
+  width: 100%;
+  height: 65vh;
+  padding: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 10px 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+input {
+  border-radius: 15px;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: none;
+
+  background-color: #f5f5f5;
+}
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 40px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.forget-password {
+  color: gray;
+  cursor: pointer;
+  font-size: smaller;
+}
+
+button {
+  background-color: #cc5602;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d86b1d;
+}
+
+.or-login-with {
+  margin: 16px 0;
+  color: gray;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.icon {
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+.google-btn,
+.apple-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.google-btn:hover,
+.apple-btn:hover {
+  background-color: #2980b9;
+}
+
+.sign-up-link {
+  margin-top: 20%;
+  color: gray;
+  cursor: pointer;
+}
+.sign-up-link a {
+  color: #cc5602;
+  cursor: pointer;
+  font-size: smaller;
+  text-decoration: none;
+}
+
+/* responsive */
+@media (max-width: 468px) {
+  .login-box {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .password-container {
+    position: relative;
+  }
+
+  .password-container input {
+    padding-right: 40px;
+  }
+
+  .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+}
